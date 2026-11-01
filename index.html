@@ -1,0 +1,240 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#fff8f5">
+  <meta name="robots" content="noindex, nofollow">
+  <meta property="og:title" content="A Little Question for You ♡">
+  <meta property="og:description" content="A little something I wanted to tell you.">
+  <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22%3E%3Ctext y=%22.9em%22 font-size=%2290%22%3E💌%3C/text%3E%3C/svg%3E">
+  <meta name="description" content="A little something I wanted to tell you.">
+  <title>A Little Question for You ♡</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Playfair+Display:ital,wght@0,500;0,600;0,700;1,500;1,600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+  <div class="ambient" aria-hidden="true"></div>
+  <div class="progress-track" aria-hidden="true"><span id="progress"></span></div>
+  <button class="music-toggle" id="musicToggle" type="button" aria-pressed="false" title="Toggle gentle background sound">♫ <span>Sound off</span></button>
+  <main>
+    <section class="scene active" id="welcome" aria-labelledby="welcomeTitle">
+      <div class="eyebrow"><span class="tiny-heart">♡</span> A tiny website, a slightly big question</div>
+      <p class="script-note">A note for <span data-her-name>you</span></p>
+      <h1 id="welcomeTitle">Hey, <em data-her-name>You</em>! <span class="heart">♥</span></h1>
+      <p class="lead">I have something to tell you...<br>but I couldn't find quite the right words.</p>
+      <button class="primary-btn" data-next="confession">Okay, I'm listening <span>↗</span></button>
+      <p class="microcopy">Best experienced with a little curiosity.</p>
+      <div class="decor decor-one">✳</div><div class="decor decor-two">♡</div><div class="decor decor-three">✧</div>
+    </section>
+
+    <section class="scene" id="confession" aria-labelledby="confessionTitle">
+      <div class="section-kicker">01 / A small confession</div>
+      <div class="letter-card">
+        <div class="letter-top"><span>JUST A LITTLE NOTE</span><span>♡</span></div>
+        <h2 id="confessionTitle">Somewhere along the way...</h2>
+        <p class="type-line" id="typeText" aria-live="polite"></p>
+        <p class="confession-extra hidden" id="confessionExtra">And honestly, I think it's time I stop pretending that you're just another person in my life.</p>
+        <p class="joke hidden" id="confessionJoke">P.S. Don't worry. This isn't a marriage proposal. I haven't even figured out what to order on our first date. 😂</p>
+        <button class="text-btn hidden" id="confessionNext">There's more <span>→</span></button>
+      </div>
+    </section>
+
+    <section class="scene" id="reasons" aria-labelledby="reasonsTitle">
+      <div class="section-kicker">02 / The little things</div>
+      <h2 id="reasonsTitle">Things I find <em>special</em> about you.</h2>
+      <p class="section-intro">A few things. Not an exhaustive list... I would need a spreadsheet for that.</p>
+      <div class="reason-grid">
+        <button class="reason-card" type="button"><span class="card-number">01</span><span class="card-icon">☼</span><span>Your smile has a suspicious ability to make my day better.</span><small>Tap to reveal a very scientific observation</small></button>
+        <button class="reason-card" type="button"><span class="card-number">02</span><span class="card-icon">✉</span><span>Talking to you is becoming my favourite notification.</span><small>Tap to reveal a very scientific observation</small></button>
+        <button class="reason-card" type="button"><span class="card-number">03</span><span class="card-icon">✿</span><span>You make ordinary moments feel a little different.</span><small>Tap to reveal a very scientific observation</small></button>
+        <button class="reason-card" type="button"><span class="card-number">04</span><span class="card-icon">♡</span><span>You make me smile at my screen like an absolute idiot.</span><small>Tap to reveal a very scientific observation</small></button>
+      </div>
+      <button class="primary-btn" data-next="daydream">Okay, get to the point <span>↗</span></button>
+    </section>
+
+
+    <section class="scene" id="daydream" aria-labelledby="daydreamTitle">
+      <div class="section-kicker">03 / A tiny daydream</div>
+      <p class="script-note">If we had a day to ourselves...</p>
+      <h2 id="daydreamTitle">I'd keep it <em>simple.</em></h2>
+      <p class="section-intro">No grand gestures required. Just a little time, good conversation, and the kind of laughter that makes you forget to check your phone.</p>
+      <div class="daydream-visual">
+        <div class="sun-orbit"><span class="orbit-sun">☼</span><span class="orbit-star star-a">✦</span><span class="orbit-star star-b">✧</span><span class="orbit-heart">♡</span></div>
+        <div class="daydream-caption"><span>GOOD COMPANY</span><b>THE REST CAN BE A SURPRISE.</b><span>AND MAYBE A LITTLE DESSERT.</span></div>
+      </div>
+      <div class="daydream-steps">
+        <div><span>01</span><b>Find a cosy place</b><small>Somewhere we can actually hear each other.</small></div>
+        <div><span>02</span><b>Talk about everything</b><small>From silly stories to our biggest dreams.</small></div>
+        <div><span>03</span><b>Let the time fly</b><small>And pretend we didn't notice. Just a little.</small></div>
+      </div>
+      <button class="primary-btn" data-next="littleJokes">Continue, I'm intrigued <span>↗</span></button>
+    </section>
+
+    <section class="scene" id="littleJokes" aria-labelledby="jokesTitle">
+      <div class="section-kicker">04 / Important scientific findings</div>
+      <p class="script-note">A very serious research report</p>
+      <h2 id="jokesTitle">Reasons you should <em>consider</em> this date.</h2>
+      <p class="section-intro">After extensive research (approximately 3 minutes of overthinking), here are my findings.</p>
+      <div class="joke-board">
+        <div class="joke-ticket"><span>FINDING #01</span><b>100%</b><p>Chance I'll try to act normal and fail a little.</p><small>Confidence level: suspiciously high</small></div>
+        <div class="joke-ticket"><span>FINDING #02</span><b>∞</b><p>Potential conversation topics. We may need snacks.</p><small>Peer-reviewed by my imagination</small></div>
+        <div class="joke-ticket"><span>FINDING #03</span><b>0</b><p>Pressure to be anyone other than yourself.</p><small>This is the most important statistic.</small></div>
+      </div>
+      <div class="tiny-disclaimer">Disclaimer: I cannot guarantee perfect jokes. I can guarantee that I will laugh at yours. ♡</div>
+      <button class="primary-btn" data-next="promises">Okay, what else? <span>↗</span></button>
+    </section>
+
+    <section class="scene" id="promises" aria-labelledby="promisesTitle">
+      <div class="section-kicker">A few small promises</div>
+      <p class="script-note">Nothing grand. Just honest.</p>
+      <h2 id="promisesTitle">If you say yes, <em>I promise</em></h2>
+      <div class="promise-list">
+        <div><span>♡</span><p>To listen properly, even when you're telling me about something small.</p></div>
+        <div><span>✿</span><p>To be myself, and to let you be completely yourself.</p></div>
+        <div><span>✦</span><p>To make sure you get home with a smile (and maybe leftover dessert).</p></div>
+      </div>
+      <button class="primary-btn" data-next="wish">One more thing <span>↗</span></button>
+    </section>
+
+    <section class="scene" id="wish" aria-labelledby="wishTitle">
+      <div class="section-kicker">Before I ask</div>
+      <h2 id="wishTitle">Make a little <em>wish.</em></h2>
+      <p class="section-intro">Tap each star. Take a breath. I'll be right here, a bit nervous.</p>
+      <div class="wish-sky" id="wishSky">
+        <button class="star-btn" type="button" aria-label="Star 1">✦</button>
+        <button class="star-btn" type="button" aria-label="Star 2">✦</button>
+        <button class="star-btn" type="button" aria-label="Star 3">✦</button>
+      </div>
+      <p class="selection-note" id="wishNote" aria-live="polite">Light all three stars.</p>
+      <button class="primary-btn" id="wishNext" data-next="question" disabled>I'm ready <span>♥</span></button>
+    </section>
+
+    <section class="scene question-scene" id="question" aria-labelledby="questionTitle">
+      <div class="section-kicker">05 / The important question</div>
+      <div class="question-mark">?</div>
+      <p class="script-note">So, I have one little question...</p>
+      <p class="confession-line">I like you. <em>More than I probably planned to.</em></p>
+      <p class="section-intro">And I'd really love to spend some time with you, just the two of us.</p>
+      <h2 id="questionTitle">Would you go on a date with me?</h2>
+      <div class="choice-row">
+        <button class="primary-btn yes-btn" id="yesBtn">YES! Absolutely <span>♥</span></button>
+        <button class="secondary-btn" id="moreBtn">Hmm... Tell me more <span>😉</span></button>
+        <button class="secondary-btn no-btn" id="noBtn">No <span>💔</span></button>
+      </div>
+      <div class="more-panel hidden" id="morePanel">
+        <p><strong>Reasons to say yes:</strong></p>
+        <p>1. I will try to be charming (results may vary).</p>
+        <p>2. Good conversation is practically guaranteed. Snacks are highly likely.</p>
+        <p>3. You get to spend time with someone who genuinely wants to know you better.</p>
+        <p class="fine-print">No pressure, no expectations. Just an invitation. ♡</p>
+      </div>
+      <button class="decline-link" id="declineBtn">Not feeling it? That's okay too.</button>
+    </section>
+
+    <section class="scene sad-scene" id="sad" aria-labelledby="sadTitle">
+      <div class="cry-rain" id="cryRain" aria-hidden="true"></div>
+      <div class="cry-face" aria-hidden="true">🥺<i class="tear t1"></i><i class="tear t2"></i><i class="tear t3"></i><i class="tear t4"></i></div>
+      <div class="puddle" aria-hidden="true"></div>
+      <h2 id="sadTitle">Oh... <em>that's</em> okay.</h2>
+      <p class="lead" id="sadText">I'm trying very hard not to cry right now.</p>
+      <div class="choice-row">
+        <button class="primary-btn" id="changeMindBtn">Wait, I changed my mind <span>♥</span></button>
+        <button class="secondary-btn" id="sureBtn">I'm sure <span>🌧</span></button>
+      </div>
+    </section>
+
+    <section class="scene celebration-scene" id="celebration" aria-labelledby="celebrationTitle">
+      <div class="celebration-heart">♥</div>
+      <div class="section-kicker">A very happy plot twist</div>
+      <h2 id="celebrationTitle">WAIT... DID YOU JUST SAY YES?!</h2>
+      <p class="lead">I promise to make it a date worth remembering. 🥹</p>
+      <p class="section-intro">Now, let's plan our little adventure.</p>
+      <div class="date-options" id="dateOptions">
+        <button class="date-option" data-date="Coffee date">☕ <span>Coffee date</span></button>
+        <button class="date-option" data-date="Dinner date">🍝 <span>Dinner date</span></button>
+        <button class="date-option" data-date="A walk and long conversations">🌆 <span>A walk & long conversations</span></button>
+        <button class="date-option" data-date="Movie date">🎬 <span>Movie date</span></button>
+        <button class="date-option" data-date="Surprise date">🎁 <span>Surprise date</span></button>
+      </div>
+      <p class="selection-note" id="selectionNote" aria-live="polite">Pick whichever sounds lovely. Or suggest your own.</p>
+      <button class="primary-btn" id="planBtn" disabled>Let's make it happen <span>♥</span></button>
+      <p class="microcopy">You can change your mind or suggest something else, anytime.</p>
+    </section>
+
+    <section class="scene" id="when" aria-labelledby="whenTitle">
+      <div class="section-kicker">Planning our date</div>
+      <p class="script-note">Your day, your choice</p>
+      <h2 id="whenTitle">When shall we <em>meet?</em></h2>
+      <div class="plan-card">
+        <label for="dateInput">Pick a day</label>
+        <input type="date" id="dateInput">
+        <label>Pick a time</label>
+        <div class="chip-row" id="timeChips"><button class="chip" type="button" data-time="Afternoon, around 4 PM">☀️ Afternoon <small>~4 PM</small></button><button class="chip" type="button" data-time="Evening, around 6 PM">🌇 Evening <small>~6 PM</small></button><button class="chip" type="button" data-time="Night, around 8 PM">🌙 Night <small>~8 PM</small></button><button class="chip" type="button" data-time="Flexible, whatever works for you">✨ Flexible <small>you decide</small></button></div>
+      </div>
+      <p class="selection-note" id="whenNote" aria-live="polite">Choose a day and a time that feel right.</p>
+      <button class="primary-btn" id="whenNext" disabled>Next: where? <span>♥</span></button>
+    </section>
+
+    <section class="scene" id="where" aria-labelledby="whereTitle">
+      <div class="section-kicker">Planning our date</div>
+      <p class="script-note">Somewhere in Dhaka</p>
+      <h2 id="whereTitle">Where would you <em>love</em> to go?</h2>
+      <div class="chip-grid" id="placeChips"><button class="chip" type="button" data-place="Hatirjheel, Dhaka">🌉 Hatirjheel <small>lakeside lights</small></button><button class="chip" type="button" data-place="Dhanmondi Lake, Dhaka">🌿 Dhanmondi Lake <small>a peaceful walk</small></button><button class="chip" type="button" data-place="Ramna Park, Dhaka">🌳 Ramna Park <small>green and calm</small></button><button class="chip" type="button" data-place="A cosy café in Gulshan / Banani">☕ Gulshan / Banani café <small>cosy &amp; quiet</small></button><button class="chip" type="button" data-place="A rooftop restaurant in Dhaka">🍽 Rooftop dinner <small>city views</small></button><button class="chip" type="button" data-place="Star Cineplex, Bashundhara City">🎬 Star Cineplex <small>Bashundhara City</small></button><button class="chip" type="button" data-place="Lalbagh Fort, Old Dhaka">🏰 Lalbagh Fort <small>a little history</small></button><button class="chip" type="button" data-place="Surprise me! (Somewhere in Dhaka)">🎁 Surprise me <small>I'll pick</small></button></div>
+      <div class="plan-card slim">
+        <label for="placeCustom">Or suggest your own place in Dhaka</label>
+        <input type="text" id="placeCustom" maxlength="80" placeholder="e.g. a spot you've always wanted to try">
+        <label for="noteInput">Anything you'd like me to know? (optional)</label>
+        <textarea id="noteInput" maxlength="300" rows="2" placeholder="A little note..."></textarea>
+      </div>
+      <button class="primary-btn" id="whereNext" disabled>Show me our plan <span>♥</span></button>
+    </section>
+
+    <section class="scene" id="plan" aria-labelledby="planTitle">
+      <div class="section-kicker">Almost there</div>
+      <h2 id="planTitle">Our little <em>plan.</em></h2>
+      <div class="ticket">
+        <div class="ticket-head"><span>♡ One date, two people</span><span>Dhaka, Bangladesh</span></div>
+        <dl>
+          <div><dt>Kind of date</dt><dd id="planType">-</dd></div>
+          <div><dt>Day</dt><dd id="planDay">-</dd></div>
+          <div><dt>Time</dt><dd id="planTime">-</dd></div>
+          <div><dt>Place</dt><dd id="planPlace">-</dd></div>
+        </dl>
+      </div>
+      <div class="choice-row">
+        <button class="primary-btn" id="confirmPlan">Yes, it's a date <span>♥</span></button>
+        <button class="secondary-btn" id="editPlan">Change something</button>
+      </div>
+    </section>
+
+    <section class="scene" id="thanks" aria-labelledby="thanksTitle">
+      <div class="final-note">
+        <div class="final-flower">✿</div>
+        <p class="script-note">One last thing</p>
+        <h2 id="thanksTitle">Thank you for making me smile.</h2>
+        <p id="finalMessage">I'm looking forward to getting to know you even better.</p>
+        <p class="signature">— <span data-my-name>Your secret admirer</span></p>
+        <button class="text-btn" id="replayBtn">Experience it again ↺</button>
+      </div>
+    </section>
+
+    <section class="scene" id="kindEnding" aria-labelledby="kindTitle">
+      <div class="final-note">
+        <div class="final-flower">♡</div>
+        <p class="script-note">And that's completely okay</p>
+        <h2 id="kindTitle">Thank you for hearing me out.</h2>
+        <p>No awkwardness, no pressure. I appreciate your honesty, and I hope this at least made you smile.</p>
+        <p class="signature">— <span data-my-name>Your secret admirer</span></p>
+        <button class="text-btn" id="replayBtn2">Start over ↺</button>
+      </div>
+    </section>
+  </main>
+  <footer>Made with a little courage <span>♡</span> and probably too much JavaScript.</footer>
+  <script src="js/config.js"></script>
+  <script src="js/notify.js"></script>
+  <script src="js/script.js"></script>
+</body>
+</html>
